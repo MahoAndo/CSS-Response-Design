@@ -1,0 +1,143 @@
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ul, li, h6, nav {
+    display: inline;
+} */
+
+h6{
+    font-size: 2em;
+}
+
+.txtOrange {
+    color: orange;
+}
+
+.txtWhite {
+    color: white;
+}
+
+.backOrange {
+    background-color: orange;
+    color: #333333;
+}
+
+.backWhite {
+    background-color: white;
+    color: #333333;
+}
+
+.backGray {
+    background-color: #444444;
+}
+
+button {
+    border: none;
+    padding: 0.8em 1.3em;
+    font-size: medium;
+    margin: 2em;
+}
+nav ul {
+    margin: 10px 10px 0 10px;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 0.6em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav li:hover {
+    background-color: #444444;
+}
+
+nav a:hover {
+    color: #F17E0C;
+}
+
+nav li:hover {
+    background-color: #444444;
+}
+
+nav a:hover {
+    color: #F17E0C;
+}
+
+#article1{
+    border: 1px solid black;
+    height: auto;
+    padding: 140px 30px;
+    background-image: url("https://images.unsplash.com/photo-1517824806704-9040b037703b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80");
+    background-position: bottom;
+    background-size: cover;
+}
+
+#article2,
+#article3,
+#article4,
+#article5{
+    padding: 2em 2em 10em 2em;
+}
+
+#article1 h1, 
+#article1 p,
+#article2 h1, 
+#article2 p {
+    font-weight: bold;
+    margin-top: 2em;
+    color: white;
+}
+
+#article3 h1,
+#article3 p,
+#article4 h1,
+#article4 p,
+#article5 h1,
+#article5 p {
+    font-weight: bold;
+    margin-bottom: 2em;
+    color: black;
+}
+
+@media screen and (max-width: 420px) {
+    header{
+        height: auto;
+        flex-direction: column;
+        padding: 0 8px;
+    }
+
+    li, a{
+        width: 100%;
+        text-decoration: none;
+    }
+
+    li{
+        border: 1px solid black;
+    }
+
+    ul, li, h6, nav {
+        margin: 6px 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+
+    h6{
+        font-size: 1em;
+    }
+
+    footer {
+        padding: 2em;
+    }
+
+}
